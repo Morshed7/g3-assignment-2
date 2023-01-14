@@ -1,0 +1,60 @@
+
+
+
+
+
+
+/*-----------Header Section------------- */
+
+.background{
+    background-color: #FFF4E7;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 45px;
+}
+.nav{
+
+}
+.nav li{
+   list-style: none;
+   margin-left: 60px; 
+}
+.nav ul{
+    display: flex; 
+ }
+
+/*---------Brand New-------------*/
+
+ .brand_new{
+    text-align: center;
+ }
+ .brand_new_heading{
+    font-size: 64px;
+    margin-bottom: 10px;
+ }
+ .brand_new_description{
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+ }
+.btn_primari{
+    background-color: #FF900E;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+.brand_new_image img{
+    height: 550px;
+    width: 1071px;
+    margin: 30px 20px;
+    
+
+}
