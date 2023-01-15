@@ -14,7 +14,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-     width: 90%;
+    width: 90%;
 
 }
 
@@ -60,9 +60,12 @@
     border-radius: 10px;
     border: none;
 }
+.btn_primari:hover{
+    background-color: aqua;
+    color: #FF900E;
+}
 .brand_new_image img{
-    height: 550px;
-    width: 1071px;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,16 +74,33 @@
     padding-bottom: 25px;
 }
 /*-------------Features styles---------------*/
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
 .our_features{
     display: flex;
     
 }
 .images_features{
     width: 50%;
+    padding-left: 50px;
+    
+}
+.images_f{
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+  }
+
+.images_f img{
+    width: 35%;
 }
 .text_features{
     width: 50%;
-    padding-top: 200px;
+    display: flex;
+    align-items: center;
+
 }
 
 .text_features_heading{
@@ -98,10 +118,12 @@
 .feature_two{
     Width: 1440px;
     height: 1059;
+    padding-top: 50px;
 
 }
 .feature{
     display: flex;
+    gap: 91px;
 
 }
 
@@ -113,30 +135,28 @@
 }
 .feature_text2_description{
     font-size: 16px;
+    line-height: 2;
 }
 
 
 
 .feature_inside_text{
     background-color: #fff7f7e7;
-    width: 350px;
-    height: 145px;
-    padding-left: 17px;
-    margin-left: 10px;
     border-radius: 5px;
-    margin-bottom: -35px;
+    margin: 15px 0;
+    padding: 10px;
 }
 .feature_inside_text_heading{
-    padding-top: 15px;
     font-size: 18px;
     margin-bottom: 20px;
 }
 
 .feature_inside_text_desription{
-
+    line-height: 1.5;
 }
 .feature_image_two{
     width: 50%;
+    position: relative;
 }
 .btn_extra{
     padding: 50px 70px;
@@ -144,6 +164,12 @@
     color: white;
     background-color: #FF900E;
     border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    
+}
+.image_two{
+    
 }
 
 
@@ -153,10 +179,11 @@
 /*----------Some Facts Style----------------- */
 .facts_section{
     margin-bottom: 120px;
+    margin-top: 70px;
 }
 .some_facts{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 60px;
 }
     .some_fects_text{
@@ -225,4 +252,11 @@
     padding-top: 22px;
     margin-top: 15px;
 
+}
+.hide{
+    display: none;
+}
+/* Media */
+@media screen and (max-width:576px){
+   
 }
