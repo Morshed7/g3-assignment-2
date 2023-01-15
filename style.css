@@ -14,6 +14,8 @@
 .header{
     display: flex;
     justify-content: space-between;
+    
+    
 }
 .logo{
     font-size: 45px;
@@ -54,7 +56,48 @@
 .brand_new_image img{
     height: 550px;
     width: 1071px;
-    margin: 30px 20px;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+/* ------------Our Sponspors section-------- */
+.sponspors_text{
+    text-align: center;
+}
+ .sponspors_heading{
+    font-size: 35px;
+    margin-bottom: 10px;
+ }   
+.sponspors_description{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 25px;
+}
+.sponspors_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+
+
+/* Footer Section */
+
+.footer{
+    background-color: #FFF4E7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1440px;
+    height: 50px;
+    left: 255px;
+    padding-top: 22px;
+    margin-top: 15px;
 
 }
