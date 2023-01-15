@@ -75,6 +75,24 @@
     display: flex;
     
 }
+.images_features{
+    width: 50%;
+}
+.text_features{
+    width: 50%;
+    padding-top: 200px;
+}
+
+.text_features_heading{
+    font-size: 35px;
+}
+.text_features_description{
+    font-size: 16px;
+}
+.text_features_heading span{
+    color: #FF900E;
+}
+
 
 
 
@@ -141,7 +159,7 @@
 
 
 
-/* Footer Section */
+/* -----------Footer Section--------------------- */
 
 .footer{
     background-color: #FFF4E7;
