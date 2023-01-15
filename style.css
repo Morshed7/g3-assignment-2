@@ -14,12 +14,18 @@
 .header{
     display: flex;
     justify-content: space-between;
-    
-    
+     width: 90%;
+   
 }
+
+    
+    
+
 .logo{
-    font-size: 45px;
+      margin-left: 210px;
+      font-size: 35px;
 }
+
 .nav{
 
 }
@@ -35,14 +41,15 @@
 
  .brand_new{
     text-align: center;
+    
  }
  .brand_new_heading{
-    font-size: 64px;
+    font-size: 50px;
     margin-bottom: 10px;
  }
  .brand_new_description{
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
  }
 .btn_primari{
@@ -61,19 +68,65 @@
     margin-right: auto;
     width: 50%;
     margin-top: 20px;
+    padding-bottom: 25px;
+}
+/*-------------Features styles---------------*/
+.our_features{
+    display: flex;
+    
 }
 
 
-/* ------------Our Sponspors section-------- */
+
+
+
+/*----------Some Facts Style----------------- */
+.facts_section{
+    margin-bottom: 120px;
+}
+.some_facts{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+    .some_fects_text{
+       
+    }
+    .some_facts_box{
+        border: 1px solid #FF900E;
+        border-radius: 5px;
+        width: 175px;
+        height: 170px;
+        text-align: center;
+      
+    }
+    .some_facts_box img{
+        padding-top: 30px;
+        padding-bottom: 0;
+
+    }
+
+    .some_facts_heading{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+.icon_box{
+    display: grid;
+    display: inline;
+   
+}
+
+
+/* ------------Our Sponspors section styles-------- */
 .sponspors_text{
     text-align: center;
 }
  .sponspors_heading{
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: -8px;
  }   
 .sponspors_description{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     padding: 25px;
 }
@@ -84,6 +137,8 @@
     gap: 80px;
     margin-bottom: 60px;
 }
+
+
 
 
 /* Footer Section */
